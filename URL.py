@@ -13,7 +13,7 @@ id = input()    # на вход подаём цифру-id пользовате�
 hack = "https://api.vk.com/method/users.get?user_ids={id}&fields=education&v=5.69".format(id = id)
 f1 = urlopen(hack)
 
-obj = json.loads(f1.read()) сначала читает ,потом конвертирует 
+obj = json.loads(f1.read()) #сначала читает ,потом конвертирует 
 print(hack)
 print('')
 pprint.pprint(obj
