@@ -16,4 +16,4 @@ f1 = urlopen(hack)
 obj = json.loads(f1.read()) #сначала читает ,потом конвертирует 
 print(hack)
 print('')
-pprint.pprint(obj
+pprint.pprint(obj)
